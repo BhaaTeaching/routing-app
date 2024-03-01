@@ -1,0 +1,15 @@
+<h1>App Component</h1>
+<ul>
+  <li routerLinkActive="active" [routerLinkActiveOptions]="{exact : true}">
+<a routerLink="/">Home</a>
+</li>
+  <li routerLinkActive="active">
+<a routerLink="/about/1">About</a>
+</li>
+</ul>
+
+<button (click)="onClick()">Goto About Page ..</button>
+
+<router-outlet></router-outlet>
+
+
